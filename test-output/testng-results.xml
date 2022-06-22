@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T16:58:18Z" name="Default suite" finished-at="2022-06-15T17:05:15Z" duration-ms="416243">
+  <suite started-at="2022-06-22T14:37:44Z" name="Default suite" finished-at="2022-06-22T14:39:56Z" duration-ms="132362">
     <groups>
     </groups>
-    <test started-at="2022-06-15T16:58:18Z" name="Default test" finished-at="2022-06-15T17:05:15Z" duration-ms="416243">
-      <class name="org.test1.TestCaseTask">
-        <test-method signature="TestCase()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:28:18Z" name="TestCase" finished-at="2022-06-15T22:31:40Z" duration-ms="201683" status="PASS">
+    <test started-at="2022-06-22T14:37:44Z" name="Default test" finished-at="2022-06-22T14:39:56Z" duration-ms="132362">
+      <class name="org.test1.Task3">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test1.Task3@4681c175]" started-at="2022-06-22T20:07:44Z" name="beforeMethod" finished-at="2022-06-22T20:08:34Z" duration-ms="49712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase -->
-        <test-method signature="TestCase1()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:31:40Z" name="TestCase1" finished-at="2022-06-15T22:32:39Z" duration-ms="58921" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Search()[pri:0, instance:org.test1.Task3@4681c175]" started-at="2022-06-22T20:08:34Z" name="Search" finished-at="2022-06-22T20:09:54Z" duration-ms="79942" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase1 -->
-        <test-method signature="TestCase2()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:32:39Z" name="TestCase2" finished-at="2022-06-15T22:33:02Z" duration-ms="22781" status="PASS">
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test1.Task3@4681c175]" started-at="2022-06-22T20:09:54Z" name="afterMethod" finished-at="2022-06-22T20:09:56Z" duration-ms="2518" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase2 -->
-        <test-method signature="TestCase3()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:33:02Z" name="TestCase3" finished-at="2022-06-15T22:33:44Z" duration-ms="41748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase3 -->
-        <test-method signature="TestCase4()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:33:44Z" name="TestCase4" finished-at="2022-06-15T22:34:09Z" duration-ms="25660" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase4 -->
-        <test-method signature="TestCase5()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:34:09Z" name="TestCase5" finished-at="2022-06-15T22:34:30Z" duration-ms="21055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase5 -->
-        <test-method signature="TestCase6()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:34:30Z" name="TestCase6" finished-at="2022-06-15T22:34:54Z" duration-ms="23285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase6 -->
-        <test-method signature="TestCase7()[pri:0, instance:org.test1.TestCaseTask@5afa3c9]" started-at="2022-06-15T22:34:54Z" name="TestCase7" finished-at="2022-06-15T22:35:15Z" duration-ms="20886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase7 -->
-      </class> <!-- org.test1.TestCaseTask -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.test1.Task3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
